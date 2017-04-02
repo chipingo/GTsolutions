@@ -1,147 +1,157 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Bree Serif', serif;
-}
-/*body section*/
-body{}
+  font-family: 'Exo', sans-serif;
 
-a {
-  text-decoration: none;
 
-}
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-  outline: none;
-}
-
-h1{
-  font-size: 36px;
+/*font family
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Bree Serif', serif;
+*/
 
 }
 
-h6{
-  font-size: 70px;
+    /*body styiling*/
+body{
+  background: #eeeeee;
 }
 
-
-/*Header Section*/
-
-
-
-
-.tm-header1 {
-  background: url(/images/section1nyc.jpg);
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  background-size:contain;
-  background-position: center center;
-  background-color: black;
+p{
+  margin-bottom: 0px;
 }
 
-.tm-container{
-  max-width: 1480px;
-  margin: 20px;
+h1, h2, {
+    margin-bottom: 10px;
+    font-size: 12vw;
 
 }
+img{
+  display: block;
+  max-width: 100%;
+}
+    /*Header styling*/
 
 .tm-header{
   background: #fff ;
+}
+
+.tm-container{
+  max-width: 1200px;
+  margin: 0px auto;
 
 }
 
-.tm-header::after {
-  content: " ";
-  clear: both;
-  display: block;
-  visibility:hidden;
+.tm-content{
+  margin-top: 10px;
+  margin-bottom: 10px;
+    max-width: 74%;
+    float: left;
 }
 
-
-.text-intro h1{
-  color: rgb(255, 255, 255, 0.6);
-  position:relative;
-  margin-left: 10%;
-  margin-right: 10%;
-  top: 30px;
-  text-align: center;
-  font-size-adjust: auto;
-
-
-}
-@media screen and (min-width: 400px){
-    .text-intro h1{
-    color: white;
-    background-image: url(images/bg400x600.jpg);
-    }
-
-
-  .text-tel a{
-  text-align: center;
-  text-decoration: none;
-  position: relative;
-  font-size: 56px;
-  top: 110px;
-  color:  #FF5733;
-  font-family: 'Bree Serif', serif;
-}
-
-.text-telw {
-  text-align: center;
-  text-decoration: none;
-  position: relative;
-  top: 105px;
-  color:  white;
-  font-size: 24px;
-  font-family: 'Bree Serif', serif;
-
-}
-
-
-
-
-/*navbar section*/
-.tm-logo{
-  line-height: 40px;
-  float: left;
-
-}
-
-.tm-nav{
+.tm-sidebar{
+  max-width: 30%;
   float: right;
-  font-size: 20px;
+  width: 25%;
+  margin-top: 10px;
+  text-decoration: none;
+
 
 }
 
- .tm-nav ul li{
-   display: inline-block;
+.tm-sidebar div{
+  background: #00A3D9;
+  padding: 20px;
+    text-decoration: none;
+}
+.tm-sidebar div ul ol a{
+  text-decoration: none;
+  color: #fff;
 
- }
 
+}
+.tm-whatwedo{
+  text-align: center;
+  padding: 10px;
+}
+.tm-header::after {
+    content: " ";
+    clear: both;
+    display: block;
+    visibility:none;
+}
+.tm-logo{
+  float: left;
+}
+
+.tm-article {
+  background: #fff;
+  color: #0085B2;
+  text-align: center;
+  margin-top: 10px;
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+
+.tm-tel{
+    text-decoration: none;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  color: magenta;
+}
+
+    /*nav bar styling*/
+
+.tm-nav {
+  float:right;
+  font-size: 18px;
+}
+
+.tm-nav ul li{
+  display: inline-block;
+
+}
 .tm-nav ul li a{
-  font-family: 'Open Sans', sans-serif;
-   display:inline-block;
-   padding: 10px 25px;
-   text-decoration: none;
-   line-height: 50px;
-   color: black;
-   position:relative;
+padding: 10px 20px;
+text-decoration: none;
+color: #303030;
+line-height: 62px;
 
 }
 
-.tm-nav li a:hover:not(.active) {
-     color:white;
-     background: #00a3d9;
-
+.tm-nav li a:hover {
+     color:#00A3D9;
+     background: black;
 }
 
 .active {
-      background-color: white;
+      background-color: black;
 }
+
+/*navbar section*/
+
+/*footer*/
+.clear-fix::after {
+    content: " ";
+    clear: both;
+    display: block;
+    visibility:none;
+}
+
+.tm-footer{
+
+  background: #fff;
+  text-align: center;
+  padding: 10px;
+
+}
+
+
+
+
+
 
 
 
@@ -175,18 +185,17 @@ h6{
 }
 .btn-xl {
   font-family: 'Bree Serif', serif;
-  background-color: #00A3D9;
-  border-color: #070005;
+  border-color: #00A3D9;;
   border-radius: 3px;
   font-size: 26px;
-  padding: 5px 12px;
+  padding: 20px 20px;
   text-decoration: none;
-  color:  white;
+  color:  #00A3D9;;
   position: absolute;
-  left: 41%;
-  right: 41%;
+  left: 38%;
+  right: 38%;
   text-align: center;
-    top: 480px;
+    bottom: 5%;
 }
 
 
